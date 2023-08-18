@@ -112,6 +112,15 @@ dataset:
     crop_size: 512
     window_size: 512
     window_stride: 512
+  deepglobe:
+    epochs: 64
+    eval_freq: 2
+    batch_size: 8
+    learning_rate: 0.001
+    im_size: 512
+    crop_size: 512
+    window_size: 512
+    window_stride: 512    
   pascal_context:
     epochs: 256
     eval_freq: 8
